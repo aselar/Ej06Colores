@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.asel.ej06colores.MainActivity">
+
+    <TextView
+        android:text="@string/red"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewRojo"
+        android:background="@color/colorred"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:text="@string/orange"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewOrange"
+        android:background="@color/colororange"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:text="@string/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewYellow"
+        android:background="@color/coloryellow"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:text="@string/green"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewGreen"
+        android:background="@color/colorgreen"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:text="@string/blue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewBlue"
+        android:background="@color/colorblue"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/colorwhite"/>
+
+    <TextView
+        android:text="@string/indigo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewIndigo"
+        android:background="@color/colorindigo"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/colorwhite"/>
+
+    <TextView
+        android:text="@string/violet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewViolet"
+        android:background="@color/colorviolet"
+        android:gravity="center"
+        android:layout_weight="1"/>
+</LinearLayout>
